@@ -1,4 +1,4 @@
-# Tales of Hearts DS (Anime Movie Edition) – English Translation v0.9 (test build)
+# Tales of Hearts DS (Anime Movie Edition) – English Translation v0.9.1 (test build)
 
 A full English translation of the Japanese Nintendo DS game *Tales of Hearts – Anime Movie Edition*. It is based on the official English script of **Tales of Hearts R** (PS Vita): R's names, terms and lines are used wherever a scene matches, and DS-only scenes are translated in the same style.
 
@@ -16,8 +16,8 @@ A full English translation of the Japanese Nintendo DS game *Tales of Hearts –
 
 1. Get your own dump of the Japanese ROM:
    `Tales of Hearts - Anime Movie Edition (Japan).nds`, CRC32 **82C1282F**
-2. Apply `Tales of Hearts DS - English (R script) v0.9.xdelta` with xdelta3, xdeltaUI, Delta Patcher or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
-3. The patched ROM should have CRC32 **F86AF16E**.
+2. Apply `Tales of Hearts DS - English (R script) v0.9.1.xdelta` with xdelta3, xdeltaUI, Delta Patcher or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
+3. The patched ROM should have CRC32 **A220FCAD**.
 
 Apply it to the clean Japanese ROM, not to a ROM that already has another English patch. Start a new game.
 
@@ -30,6 +30,14 @@ No ROMs are provided here.
 - Please also mention lines that read awkwardly or don't fit the scene.
 
 Report issues in the [Issues](../../issues) tab.
+
+## Changes
+
+**v0.9.1**
+- Fixed the first entry of several lists still showing Japanese: Fire Willstone (material), Asteria (Soma), World Map (key item), Play Time (grade shop) and Kor (enemy entry).
+
+**v0.9**
+- First public test build.
 
 ## Known issues
 
