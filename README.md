@@ -35,6 +35,13 @@ Report issues in the [Issues](../../issues) tab.
 
 - A few sample pictures in the camp menu (e.g. the menu title box) may still show Japanese if the game doesn't draw over them. Please report it with a screenshot if you see it.
 
+## Ko-Fi
+https://ko-fi.com/boredgamingph - FULLY OPTIONAL I want this to be clear, I just added this if you want to support.
+
+## AI Disclaimer
+Current usages of AI is the generation of the Translation, the patch
+and translation of this git Readme for grammar correction and conciseness
+
 ## Credits
 
 - English text based on *Tales of Hearts R* © Bandai Namco Entertainment; DS-only scenes translated in the same style.
