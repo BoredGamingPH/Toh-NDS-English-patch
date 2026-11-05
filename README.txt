@@ -1,4 +1,4 @@
-Tales of Hearts DS (Anime Movie Edition) - English Translation, v0.9.1 (test build)
+Tales of Hearts DS (Anime Movie Edition) - English Translation, v0.9.2 (test build)
 ================================================================================
 
 A complete English translation of the Japanese Nintendo DS game, written to match the
@@ -11,7 +11,7 @@ assistance (Claude, by Anthropic), alongside the official Tales of Hearts R Engl
 Translated
 ----------
 - All story scenes, skits (including choices and hint skits), NPC dialogue and side quests
-- Menus, battle interface, tutorials, shop names, save/load messages
+- Menus, battle interface, tutorials, shop names, save/load messages, the Synopsis
 - Items, materials, accessories, Somas, artes and skills, titles, enemies and Monster Book,
   battle memos, strategies, Spiria Link data
 - Town-name banners and title-screen buttons
@@ -24,6 +24,10 @@ Not yet translated
 - A few sample pictures in the camp menu (e.g. the menu title box) that the game may draw
   over at run time. If you see Japanese there, please report it with a screenshot.
 
+Changes in v0.9.2
+-----------------
+- Translated the Synopsis menu: all 48 chapter summaries, with their titles.
+
 Changes in v0.9.1
 -----------------
 - Fixed the first entry of several lists still showing Japanese: Fire Willstone (material),
@@ -34,9 +38,9 @@ How to apply
 1. You need the Japanese ROM:
      Tales of Hearts - Anime Movie Edition (Japan).nds
      CRC32: 82C1282F
-2. Apply "Tales of Hearts DS - English (R script) v0.9.1.xdelta" with xdelta3 or xdeltaUI
+2. Apply "Tales of Hearts DS - English (R script) v0.9.2.xdelta" with xdelta3 or xdeltaUI
    (or any VCDIFF patcher, e.g. Delta Patcher / RomPatcher.js).
-3. The patched ROM should have CRC32: A220FCAD
+3. The patched ROM should have CRC32: 65DA96E9
 
 Apply it to the clean Japanese ROM, not to a ROM that already has another English patch.
 Start a new game (old saves from other patches may show leftover text).
