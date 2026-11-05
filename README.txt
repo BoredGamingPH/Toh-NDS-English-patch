@@ -40,7 +40,7 @@ or any VCDIFF patcher (e.g. Delta Patcher / RomPatcher.js).
 
 Anime Movie Edition
   ROM:    Tales of Hearts - Anime Movie Edition (Japan).nds   CRC32: 82C1282F
-  Patch:  Tales of Hearts DS - English (R script) v0.9.2.xdelta
+  Patch:  Tales of Hearts DS Anime Movie Edition - English (R script) v0.9.2.xdelta
   Result: CRC32 65DA96E9
 
 CG Movie Edition

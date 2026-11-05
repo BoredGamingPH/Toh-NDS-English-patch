@@ -20,7 +20,7 @@ There is one patch for each Japanese edition. Both have the same translation; th
 |---|---|---|
 | Your ROM | `Tales of Hearts - Anime Movie Edition (Japan).nds` | `Tales of Hearts - CG Movie Edition (Japan).nds` |
 | ROM CRC32 | **82C1282F** | **6BEA837E** |
-| Patch | `Tales of Hearts DS - English (R script) v0.9.2.xdelta` | `Tales of Hearts DS CG Movie Edition - English (R script) v0.9.2.xdelta` |
+| Patch | `Tales of Hearts DS Anime Movie Edition - English (R script) v0.9.2.xdelta` | `Tales of Hearts DS CG Movie Edition - English (R script) v0.9.2.xdelta` |
 | Patched CRC32 | **65DA96E9** | **B01B8034** |
 
 1. Get your own dump of one of the Japanese ROMs and check its CRC32 against the table.
