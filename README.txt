@@ -35,12 +35,20 @@ Changes in v0.9.1
 
 How to apply
 ------------
-1. You need the Japanese ROM:
-     Tales of Hearts - Anime Movie Edition (Japan).nds
-     CRC32: 82C1282F
-2. Apply "Tales of Hearts DS - English (R script) v0.9.2.xdelta" with xdelta3 or xdeltaUI
-   (or any VCDIFF patcher, e.g. Delta Patcher / RomPatcher.js).
-3. The patched ROM should have CRC32: 65DA96E9
+There is one patch per edition. Use the one that matches your ROM, with xdelta3, xdeltaUI
+or any VCDIFF patcher (e.g. Delta Patcher / RomPatcher.js).
+
+Anime Movie Edition
+  ROM:    Tales of Hearts - Anime Movie Edition (Japan).nds   CRC32: 82C1282F
+  Patch:  Tales of Hearts DS - English (R script) v0.9.2.xdelta
+  Result: CRC32 65DA96E9
+
+CG Movie Edition
+  ROM:    Tales of Hearts - CG Movie Edition (Japan).nds      CRC32: 6BEA837E
+  Patch:  Tales of Hearts DS CG Movie Edition - English (R script) v0.9.2.xdelta
+  Result: CRC32 B01B8034
+
+The two editions differ only in their movies; the translation is the same.
 
 Apply it to the clean Japanese ROM, not to a ROM that already has another English patch.
 Start a new game (old saves from other patches may show leftover text).

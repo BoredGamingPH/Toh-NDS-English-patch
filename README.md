@@ -1,6 +1,6 @@
-# Tales of Hearts DS (Anime Movie Edition) – English Translation v0.9.2 (test build)
+# Tales of Hearts DS – English Translation v0.9.2 (test build)
 
-A full English translation of the Japanese Nintendo DS game *Tales of Hearts – Anime Movie Edition*. It is based on the official English script of **Tales of Hearts R** (PS Vita): R's names, terms and lines are used wherever a scene matches, and DS-only scenes are translated in the same style.
+A full English translation of the Japanese Nintendo DS game *Tales of Hearts*, for both the **Anime Movie Edition** and the **CG Movie Edition**. It is based on the official English script of **Tales of Hearts R** (PS Vita): R's names, terms and lines are used wherever a scene matches, and DS-only scenes are translated in the same style.
 
 > **Tool-assisted translation.** The translation and the patching tools were made with AI assistance (Claude, by Anthropic), alongside the official *Tales of Hearts R* English script. Some lines may still read stiffly or miss nuance, so player feedback is especially valuable.
 
@@ -14,10 +14,18 @@ A full English translation of the Japanese Nintendo DS game *Tales of Hearts –
 
 ## How to apply
 
-1. Get your own dump of the Japanese ROM:
-   `Tales of Hearts - Anime Movie Edition (Japan).nds`, CRC32 **82C1282F**
-2. Apply `Tales of Hearts DS - English (R script) v0.9.2.xdelta` with xdelta3, xdeltaUI, Delta Patcher or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
-3. The patched ROM should have CRC32 **65DA96E9**.
+There is one patch for each Japanese edition. Both have the same translation; the editions differ only in their movies.
+
+| | Anime Movie Edition | CG Movie Edition |
+|---|---|---|
+| Your ROM | `Tales of Hearts - Anime Movie Edition (Japan).nds` | `Tales of Hearts - CG Movie Edition (Japan).nds` |
+| ROM CRC32 | **82C1282F** | **6BEA837E** |
+| Patch | `Tales of Hearts DS - English (R script) v0.9.2.xdelta` | `Tales of Hearts DS CG Movie Edition - English (R script) v0.9.2.xdelta` |
+| Patched CRC32 | **65DA96E9** | **B01B8034** |
+
+1. Get your own dump of one of the Japanese ROMs and check its CRC32 against the table.
+2. Apply the matching patch with xdelta3, xdeltaUI, Delta Patcher or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/).
+3. Check the patched ROM's CRC32.
 
 Apply it to the clean Japanese ROM, not to a ROM that already has another English patch. Start a new game.
 
@@ -32,6 +40,12 @@ No ROMs are provided here.
 Report issues in the [Issues](../../issues) tab.
 
 ## Changes
+
+Full history: [CHANGELOG.md](CHANGELOG.md)
+
+**v0.9.2**
+- Translated the Synopsis menu: all 48 chapter summaries, with their titles.
+- Added a CG Movie Edition patch (same translation).
 
 **v0.9.1**
 - Fixed the first entry of several lists still showing Japanese: Fire Willstone (material), Asteria (Soma), World Map (key item), Play Time (grade shop) and Kor (enemy entry).
